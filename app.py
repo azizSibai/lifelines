@@ -90,7 +90,7 @@ def display_shelters(user_location):
 class EmergencyApp(App):
     def build(self):
         self.layout = GridLayout(cols=1, padding=20, spacing=10)
-
+        self.icon= 'applogo.png'
         self.label = Label(text="📍 Fetching location...", font_size=20, bold=True)
         self.layout.add_widget(self.label)
 
